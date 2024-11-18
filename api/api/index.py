@@ -13,7 +13,7 @@ saved_file_data = {}
 # link fikri 'C:/Users/Lakuna/OneDrive/Documents/GitHub/tubes_pbo_maps/uploads'
 # link darell 'C:/Users/ryand/Documents/GitHub/tubes_pbo_maps/uploads'
 
-UPLOAD_FOLDER = r'C:/Users/Nab/Documents/GitHub/maps_pengabdian_masyarakat/src/uploads'
+UPLOAD_FOLDER = r'C:/Users/ryand/Pictures/maps_pengabdian_masyarakat-3057ab69ad75531eb723e377d5ba741359714868/uploads'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 

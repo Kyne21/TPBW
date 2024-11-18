@@ -270,7 +270,7 @@ const SideBar = ({ isOpen, selectedMarkerData, surat, onClose, hapus }) => {
             Tambah Anak
           </Button> */}
 
-          <Button style={{ width: 'calc(100% - 20px)', margin: '5px 5px 5px 10px', textAlign: 'center', textTransform: 'none' }} className='delete' variant="contained" color='error' onClick={() => { hapus(selectedMarkerData.name); onClose(); }}>Hapus</Button>
+          {/* <Button style={{ width: 'calc(100% - 20px)', margin: '5px 5px 5px 10px', textAlign: 'center', textTransform: 'none' }} className='delete' variant="contained" color='error' onClick={() => { hapus(selectedMarkerData.name); onClose(); }}>Hapus</Button> */}
         </div>
       )}
 

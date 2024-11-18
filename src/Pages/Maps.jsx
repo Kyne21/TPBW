@@ -153,7 +153,7 @@ const Maps = () => {
 
       <div className="search-bar-container">
         <TextField
-          label="Nama Penduduk"
+          label="Nama Salon/Barbershop"
           variant="outlined"
           value={searchInput}
           onChange={handleSearchInputChange}
@@ -173,9 +173,7 @@ const Maps = () => {
 
       <div className="map-container">
         <TombolLogout />
-        <TombolTambahWarga />
-        <TombolTambahSurat />
-
+        {/* <TombolTambahWarga /> */}
         <MapContainer center={[-7.0053677, 107.6368018]} zoom={19}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -211,8 +209,8 @@ const Maps = () => {
                   ></Marker>
                 ))}
           </MarkerClusterGroup>
-
-          <Polygon pathOptions={purpleOptions} positions={multiPolygon} />
+          //Polygon untuk penanda wilayah
+          {/* <Polygon pathOptions={purpleOptions} positions={multiPolygon} /> */}
         </MapContainer>
       </div>
     </div>

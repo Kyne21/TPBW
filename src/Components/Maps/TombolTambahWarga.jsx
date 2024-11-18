@@ -21,7 +21,7 @@ const TombolTambahWarga = () => {
     <div className="app-container">
       <div className="tombol-warga">
         <Button style={{textTransform: 'none'}} variant="contained" onClick={handleWargaClick}>
-          Warga
+          Tambah Salon
         </Button>
       </div>
     </div>
